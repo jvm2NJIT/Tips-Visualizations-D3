@@ -95,24 +95,7 @@ class Child1 extends Component {
       u
         .exit()
         .remove()
-/*
-      var x_label = container.append('text')
-      x_label
-        .attr('class', 'x label')
-        .merge(x_label)
-        .attr('text-anchor', 'end')
-        .attr('x', w/2)
-        .attr('y', h+20)
-        .text(this.props.categorical)
-      
-      container.append('text')
-        .attr('class', 'y label')
-        .attr('text-anchor', 'end')
-        .attr('x', -80)
-        .attr('y', -3)
-        .attr('transform', 'rotate(-90)')
-        .text('Average of ' + this.props.numerical)
-*/
+
     }
     render() {
       return (
